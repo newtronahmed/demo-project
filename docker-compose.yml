@@ -6,7 +6,7 @@ services:
       context: .  # The directory where the Dockerfile is located
       dockerfile: Dockerfile  # Specify the Dockerfile (optional if it's named Dockerfile)
     ports:
-      - "8080:8080"  # Map host port 8080 to container port 8080
+      - "8081:8080"  # Map host port 8080 to container port 8080
     environment:
       - SPRING_PROFILES_ACTIVE=prod  # Optional environment variables, if needed
     volumes:
