@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: java-app
-          image: demo-app  # Replace with your Docker image
+          image: ahmedzubairu/my-java-app:latest  # Replace with your Docker image
           ports:
             - containerPort: 8080
